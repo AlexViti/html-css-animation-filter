@@ -71,3 +71,27 @@
 .ex-7-img:hover {
 	filter: sepia(50%) brightness(95%);
 }
+
+/* Exercise 8 */
+
+.ex-8-img {
+	transition: filter 1s, border-radius 1.5s;
+}
+
+.ex-8-img:hover {
+	filter: sepia(60%) grayscale(50%);
+	border-radius: 20px;
+}
+
+/* Exercise 9 */
+
+.ex-9-img {
+	transition: all 2s;
+}
+
+.ex-9-img:hover {
+	filter: sepia(50%) grayscale(60%);
+	margin: -6px 0;
+	border-radius: 30px;
+	width: 600px;
+}
