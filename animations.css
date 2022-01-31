@@ -95,3 +95,27 @@
 	border-radius: 30px;
 	width: 600px;
 }
+
+/* Exercise 10 */
+
+.ex-10-icon {
+	animation-name: rotation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function:  linear;
+}
+
+@keyframes rotation {
+	25%{
+		transform: rotate(-90deg);
+	}
+	50%{
+		transform: rotate(-180deg);
+	}
+	75%{
+		transform: rotate(-270deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+}
