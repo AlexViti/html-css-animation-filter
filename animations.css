@@ -1,7 +1,29 @@
+/* Exercise 1 */
+
 .ex-1-square {
 	transition: background-color 3s;
 }
 
 .ex-1-square:hover {
 	background-color: red;
+}
+
+/* Exercise 2 */
+
+.ex-2-square {
+	transition: width 1.5s ease-out;
+}
+
+.ex-2-square:active {
+	width: 100%;
+}
+
+/* Exercise 3 */
+
+.ex-3-square {
+	transition: border-radius .5s;
+}
+
+.ex-3-square:hover {
+	border-radius: 50%;
 }
