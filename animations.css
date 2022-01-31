@@ -137,3 +137,25 @@
 		transform: rotate(0);
 	}
 }
+
+/* Exercise 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+	animation: move-right 2s linear 0s 1;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+	animation: move-left 2s linear 0s 1;
+}
+
+@keyframes move-right {
+	50%{
+		left: calc(100% - 60px);
+	}
+}
+
+@keyframes move-left {
+	50%{
+		right: calc(100% - 60px);
+	}
+}
