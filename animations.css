@@ -87,9 +87,8 @@
 
 .ex-9-img:hover {
 	filter: sepia(50%) grayscale(60%);
-	margin: -6px 0;
+	transform: scale(1.5);
 	border-radius: 30px;
-	width: 600px;
 }
 
 /* Exercise 10 */
